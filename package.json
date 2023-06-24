@@ -14,7 +14,7 @@
 		"@sveltejs/adapter-cloudflare": "^2.3.0",
 		"@sveltejs/adapter-static": "^2.0.2",
 		"@sveltejs/kit": "^1.20.4",
-		"gh-pages": "^5.0.0",
+		"gh-pages": "^3.0.0",
 		"svelte": "^4.0.0",
 		"svelte-check": "^3.4.3",
 		"typescript": "^5.0.0",
