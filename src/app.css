@@ -2,14 +2,16 @@
 /* #1d252d color blue dark */
 :root {
 
---colorPrimary: #1d252d;
+--colorPrimary: #ffffff;
+--colorBackground: #1d252d;
 --colorSecundary: #e40046;
 
 }
 
 * {
-    background-color: var(--colorPrimary);
-    color: white;
+    background-color: var(--colorBackground);
+    color: var(--colorPrimary);
     font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
   
 }
+

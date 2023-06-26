@@ -2,20 +2,22 @@
   import { navItems } from "$lib/config";
 </script>
 
-<div class="nav">
-  <h1>Portfolio <span class="color"> / </span> </h1>
-  <div class="nav-list">
+<nav class="nav">
+  <h1>Jorge Corzo<span class="color">[<span>-</span>]</span></h1>
+  <div class="nav__div">
     {#each navItems as navItem}
       <li>
         <a href={navItem.path}> {navItem.title}</a>
       </li>
     {/each}
   </div>
-</div>
+</nav>
 
 <style>
   * {
     margin: 10px;
+    padding: 10px;
+    text-decoration: none;
   }
 
   .color {
@@ -24,11 +26,18 @@
   .nav {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
   
   }
-  .nav-list {
-    list-style-type: none;
+  .nav__div {
     display: flex;
-    text-decoration: wavy;
+    list-style-type: none;
+ 
   }
+
+  .nav__div :hover {
+    color: var(--colorSecundary);
+  }
+
 </style>
