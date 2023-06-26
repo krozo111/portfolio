@@ -3,7 +3,7 @@
 </script>
 
 <div class="nav">
-  <h1>Portfolio</h1>
+  <h1>Portfolio <span class="color"> / </span> </h1>
   <div class="nav-list">
     {#each navItems as navItem}
       <li>
@@ -18,13 +18,17 @@
     margin: 10px;
   }
 
+  .color {
+    color: var(--colorSecundary);
+  }
   .nav {
     display: flex;
     justify-content: space-between;
+  
   }
   .nav-list {
     list-style-type: none;
     display: flex;
-    text-decoration: none;
+    text-decoration: wavy;
   }
 </style>

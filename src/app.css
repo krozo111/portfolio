@@ -1,7 +1,14 @@
 /* #e40046 color red */
 /* #1d252d color blue dark */
+:root {
+
+--colorPrimary: #1d252d;
+--colorSecundary: #e40046;
+
+}
+
 * {
-    background-color: #1d252d;
+    background-color: var(--colorPrimary);
     color: white;
     font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
   
