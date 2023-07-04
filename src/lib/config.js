@@ -4,19 +4,16 @@ export const navItems = [
 		path: '/'
 	},
 	{
-		title: 'Project',
-		path: '/'
+		title: 'Projects',
+		path: '/projects'
 	},
 	{
-		title: 'Blog',
-		path: '/'
+		title: 'Resume',
+		path: '/resume'
 	},
-	{
-		title: 'Resource',
-		path: '/'
-	},
+
 	{
 		title: 'Contact',
-		path: '/'
+		path: '/contact'
 	}
 ];

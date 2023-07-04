@@ -3,6 +3,6 @@
     import '../app.css'
 </script>
 
-<Navbar />
+<Navbar logo={'Jorge Corzo.'}/>
 <br />
 <slot />
