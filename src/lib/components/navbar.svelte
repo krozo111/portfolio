@@ -6,19 +6,19 @@
   export let logo;
 </script>
 
-<nav class="nav">
+<nav class="m-3 p-1 flex justify-between mt-5 items-center">
   <h1>{logo}</h1>
-  <div class="nav__div">
+  <div class="flex list-none ">
     {#each navItems as navItem}
       <li class:active_link={$page.url.pathname === `${navItem.path}`}>
-        <a href={navItem.path}>{navItem.title}</a>
+        <a class="hover:text-red-600 p-4" href={navItem.path}>{navItem.title}</a>
       </li>
     {/each}
   </div>
 </nav>
 
 <style>
-  * {
+  /* * {
     margin: 10px;
     padding: 5px;
     text-decoration: none;
@@ -44,5 +44,5 @@
 
   .active_link {
     color: var(--colorSecundary);
-  }
+  } */
 </style>
