@@ -3,46 +3,25 @@
 
   import { navItems } from "$lib/config";
   import { page } from "$app/stores";
+  import { LightSwitch } from '@skeletonlabs/skeleton';
   export let logo;
 </script>
 
-<nav class="m-3 p-1 flex justify-between mt-5 items-center">
-  <h1>{logo}</h1>
-  <div class="flex list-none ">
+<nav class="flex items-center justify-between flex-wrap p-10">
+  <h1 class="h1 my-4"><span class="text-primary-500">&lt</span> {logo} <span class="text-primary-500">&gt</span></h1>
+  
+  <div class="hidden my-4 md:flex list-none items-center flex-shrink-0">
     {#each navItems as navItem}
       <li class:active_link={$page.url.pathname === `${navItem.path}`}>
-        <a class="hover:text-red-600 p-4" href={navItem.path}>{navItem.title}</a>
+        <a class="hover:text-primary-500 m-10 " href={navItem.path}>{navItem.title}</a>
       </li>
     {/each}
+    <LightSwitch />
   </div>
 </nav>
 
 <style>
-  /* * {
-    margin: 10px;
-    padding: 5px;
-    text-decoration: none;
-  }
-
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    align-items: center;
-  }
-  a:visited {
-    color: inherit;
-  }
-  .nav__div {
-    display: flex;
-    list-style-type: none;
-  }
-
-  .nav__div :hover {
-    color: var(--colorSecundary);
-  }
-
-  .active_link {
-    color: var(--colorSecundary);
-  } */
+ .active_link {
+  color: rgba(var(--color-primary-500));
+ }
 </style>
