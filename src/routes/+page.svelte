@@ -1,17 +1,23 @@
 <script>
-
-
-  import Hero from "$lib/components/hero.svelte";
+  import About from "$lib/components/about.svelte";
+  import Sample from "$lib/components/sample.svelte";
 </script>
 
 <svelte:head>
   <title>Jorge Corzo - Portfolio</title>
 </svelte:head>
 
-<main class="m-9">
-  <Hero />
+<main class="hidden md:block md:container md:mx-auto">
+  hola
+  <About />
+
 </main>
+<div class="md:hidden">
+  <Sample/>
+</div>
+
 
 <style>
 
 </style>
+

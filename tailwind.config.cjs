@@ -12,7 +12,11 @@ module.exports = {
 		)
 	],
 	theme: {
-		extend: {},
+		extend: {
+			backgroundImage: {
+				'bg': "url('src/lib/images/bg.avif')",	
+							}
+				},
 	},
 	plugins: [
 		// 3. Append the Skeleton plugin to the end of this list

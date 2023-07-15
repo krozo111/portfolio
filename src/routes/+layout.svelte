@@ -2,17 +2,17 @@
   import "@skeletonlabs/skeleton/themes/theme-crimson.css";
   import "@skeletonlabs/skeleton/styles/skeleton.css";
   import "../app.postcss";
-  import { AppShell } from "@skeletonlabs/skeleton";
-  import { AppBar } from "@skeletonlabs/skeleton";
   import Navbar from "$lib/components/navbar.svelte";
+  import Main from "$lib/components/main.svelte";
+
 </script>
 
-<AppShell>
-  <svelte:fragment slot="pageHeader">
-    <Navbar logo="pofo.dev" />
-  </svelte:fragment>
+<div class="min-h-screen md:pb-16 w-full">
+  <Navbar logo="Pofo.dev" />
+  
   <slot />
-</AppShell>
+
+</div>
 
 <style>
 </style>
