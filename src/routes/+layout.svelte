@@ -8,8 +8,7 @@
 </script>
 
 <div class="min-h-screen md:pb-16 w-full">
-  <Navbar logo="Pofo.dev" />
-  
+
   <slot />
 
 </div>

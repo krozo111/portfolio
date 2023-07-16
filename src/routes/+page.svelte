@@ -8,7 +8,7 @@
 </svelte:head>
 
 <main class="hidden md:block md:container md:mx-auto">
-  hola
+
   <About />
 
 </main>
