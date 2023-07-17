@@ -2,6 +2,7 @@
   import "@skeletonlabs/skeleton/themes/theme-crimson.css";
   import "@skeletonlabs/skeleton/styles/skeleton.css";
   import "../app.postcss";
+  import 'iconify-icon';
   import Navbar from "$lib/components/navbar.svelte";
   import Main from "$lib/components/main.svelte";
 
