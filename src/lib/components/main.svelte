@@ -553,32 +553,7 @@
                       alt="brand icon"
                     />
                   </div>
-                  <div
-                    class="slick-slide"
-                    style="width: 234px;"
-                    tabindex="0"
-                    data-slick-index="4"
-                    aria-hidden="true"
-                  >
-                    <img
-                      class="overflow-hidden brand-img"
-                      src="./images/slider/brand4.png"
-                      alt="brand icon"
-                    />
-                  </div>
-                  <div
-                    class="slick-slide slick-current slick-active"
-                    style="width: 234px;"
-                    tabindex="0"
-                    data-slick-index="5"
-                    aria-hidden="false"
-                  >
-                    <img
-                      class="overflow-hidden brand-img"
-                      src="./images/slider/brand1.png"
-                      alt="brand icon"
-                    />
-                  </div>
+            
                   <div
                     class="slick-slide slick-active"
                     style="width: 234px;"

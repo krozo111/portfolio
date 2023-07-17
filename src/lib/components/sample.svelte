@@ -1,3 +1,6 @@
+<script>
+  import profileImage from "$lib/images/hero_img.webp";
+</script>
 <div class="col-span-12 lg:col-span-8">
   <!-- header for mobile devices start -->
   <header
@@ -58,7 +61,7 @@
           >
             <!-- profile image  -->
             <img
-              src="./images/about/avatar.jpg"
+              src={profileImage}
               class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
               alt="about"
             />
@@ -185,7 +188,7 @@
               <button class="dowanload-btn">
                 <img
                   class="mr-3"
-                  src="./images/icons/dowanload.png"
+                  src={profileImage}
                   alt="icon"
                 /> Download CV
               </button>
@@ -224,7 +227,7 @@
           <div class="about-box bg-[#fcf4ff] dark:bg-transparent">
             <img
               class="w-10 h-10 object-contain block"
-              src="./images/icons/icon.svg"
+              src={profileImage}
               alt="icon"
             />
             <div class="space-y-2">
@@ -241,7 +244,7 @@
           <div class="about-box bg-[#fefaf0] dark:bg-transparent">
             <img
               class="w-10 h-10 object-contain block"
-              src="./images/icons/icon1.svg"
+              src={profileImage}
               alt="icon"
             />
             <div class="space-y-2">
@@ -258,7 +261,7 @@
           <div class="about-box bg-[#fcf4ff] dark:bg-transparent">
             <img
               class="w-10 h-10 object-contain block"
-              src="./images/icons/icon2.svg"
+              src={profileImage}
               alt="icon"
             />
             <div class="space-y-2">
@@ -275,7 +278,7 @@
           <div class="about-box bg-[#fff4f4] dark:bg-transparent">
             <img
               class="w-10 h-10 object-contain block"
-              src="./images/icons/icon3.svg"
+              src={profileImage}
               alt="icon"
             />
             <div class="space-y-2">
@@ -292,7 +295,7 @@
           <div class="about-box bg-[#fff0f8] dark:bg-transparent">
             <img
               class="w-10 h-10 object-contain block"
-              src="./images/icons/icon4.svg"
+              src={profileImage}
               alt="icon"
             />
             <div class="space-y-2">
@@ -309,7 +312,7 @@
           <div class="about-box bg-[#f3faff] dark:bg-transparent">
             <img
               class="w-10 h-10 object-contain block"
-              src="./images/icons/icon5.svg"
+              src={profileImage}
               alt="icon"
             />
             <div class="space-y-2">
@@ -352,7 +355,7 @@
                 >
                   <img
                     class="overflow-hidden brand-img"
-                    src="./images/slider/brand3.png"
+                    src={profileImage}
                     alt="brand icon"
                   />
                 </div>
@@ -366,7 +369,7 @@
                 >
                   <img
                     class="overflow-hidden brand-img"
-                    src="./images/slider/brand4.png"
+                    src={profileImage}
                     alt="brand icon"
                   />
                 </div>
@@ -380,7 +383,7 @@
                 >
                   <img
                     class="overflow-hidden brand-img"
-                    src="./images/slider/brand1.png"
+                    src={profileImage}
                     alt="brand icon"
                   />
                 </div>
@@ -394,7 +397,7 @@
                 >
                   <img
                     class="overflow-hidden brand-img"
-                    src="./images/slider/brand1.png"
+                    src={profileImage}
                     alt="brand icon"
                   />
                 </div>
@@ -407,7 +410,7 @@
                 >
                   <img
                     class="overflow-hidden brand-img"
-                    src="./images/slider/brand.png"
+                    src={profileImage}
                     alt="brand icon"
                   />
                 </div>
@@ -420,7 +423,7 @@
                 >
                   <img
                     class="overflow-hidden brand-img"
-                    src="./images/slider/brand1.png"
+                    src={profileImage}
                     alt="brand icon"
                   />
                 </div>
@@ -433,7 +436,7 @@
                 >
                   <img
                     class="overflow-hidden brand-img"
-                    src="./images/slider/brand2.png"
+                    src={profileImage}
                     alt="brand icon"
                   />
                 </div>
@@ -448,7 +451,7 @@
                 >
                   <img
                     class="overflow-hidden brand-img"
-                    src="./images/slider/brand.png"
+                    src={profileImage}
                     alt="brand icon"
                   />
                 </div>
@@ -462,7 +465,7 @@
                 >
                   <img
                     class="overflow-hidden brand-img"
-                    src="./images/slider/brand1.png"
+                    src={profileImage}
                     alt="brand icon"
                   />
                 </div>
@@ -476,7 +479,7 @@
                 >
                   <img
                     class="overflow-hidden brand-img"
-                    src="./images/slider/brand2.png"
+                    src={profileImage}
                     alt="brand icon"
                   />
                 </div>
@@ -490,7 +493,7 @@
                 >
                   <img
                     class="overflow-hidden brand-img"
-                    src="./images/slider/brand3.png"
+                    src={profileImage}
                     alt="brand icon"
                   />
                 </div>
@@ -504,7 +507,7 @@
                 >
                   <img
                     class="overflow-hidden brand-img"
-                    src="./images/slider/brand4.png"
+                    src={profileImage}
                     alt="brand icon"
                   />
                 </div>
@@ -518,7 +521,7 @@
                 >
                   <img
                     class="overflow-hidden brand-img"
-                    src="./images/slider/brand1.png"
+                    src={profileImage}
                     alt="brand icon"
                   />
                 </div>
@@ -532,7 +535,7 @@
                 >
                   <img
                     class="overflow-hidden brand-img"
-                    src="./images/slider/brand1.png"
+                    src={profileImage}
                     alt="brand icon"
                   />
                 </div>
