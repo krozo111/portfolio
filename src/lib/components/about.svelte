@@ -268,7 +268,7 @@
                 <button class="dowanload-btn">
                   <img
                     class="mr-3"
-                    src="./images/icons/dowanload.png"
+                    src={profileImage}
                     alt="icon"
                   /> Download CV
                 </button>
@@ -493,7 +493,7 @@
                   >
                     <img
                       class="overflow-hidden brand-img"
-                      src="./images/slider/brand.png"
+                      src={profileImage}
                       alt="brand icon"
                     />
                   </div>
