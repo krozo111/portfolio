@@ -9,35 +9,35 @@
     <nav class="hidden lg:block">
       <ul class="flex">
         <li>
-          <a class="menu-active" href="./aboutOne.html">
+          <a class="menu-active" href="/">
             <span class="text-xl mb-1">
               <i class="fa-regular fa-user" />
             </span> About
           </a>
         </li>
         <li>
-          <a class="menu-item" href="./resumeOne.html">
+          <a class="menu-item" href="/">
             <span class="text-xl mb-1">
               <i class="fa-regular fa-file-lines" />
             </span> Resume
           </a>
         </li>
         <li>
-          <a class="menu-item" href="./portfiloOne.html">
+          <a class="menu-item" href="/">
             <span class="text-xl mb-1">
               <i class="fas fa-briefcase" />
             </span> Works
           </a>
         </li>
         <li>
-          <a class="menu-item" href="./blogOne.html">
+          <a class="menu-item" href="/">
             <span class="text-xl mb-1">
               <i class="fa-brands fa-blogger" />
             </span> Blogs
           </a>
         </li>
         <li>
-          <a class="menu-item" href="./contactOne.html">
+          <a class="menu-item" href="/">
             <span class="text-xl mb-1">
               <i class="fa-solid fa-address-book" />
             </span> Contact
