@@ -1,4 +1,5 @@
 <script>
+  import profileImage from "$lib/images/hero_img.webp"
 </script>
 
 <div
@@ -11,7 +12,7 @@
     >
       <!-- profile image -->
       <img
-        src="src/lib/images/hero_img.webp"
+        src={profileImage}
         class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
         alt="about"
       />
@@ -85,7 +86,7 @@
       <nav class="hidden lg:block">
         <ul class="flex justify-between text-tertiary-50 font-bold">
           <li>
-            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-orange-500 to-pink-500" href="./aboutOne.html">
+            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-orange-500 to-pink-500" href="/home">
               <span class="text-xl mb-1">
                 <iconify-icon icon="mdi:about"></iconify-icon>
                
@@ -93,28 +94,28 @@
             </a>
           </li>
           <li>
-            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="./resumeOne.html">
+            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="/home">
               <span class="text-xl mb-1">
                 <iconify-icon icon="mdi:resume"></iconify-icon>
               </span> Resume
             </a>
           </li>
           <li>
-            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="./portfiloOne.html">
+            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="/home">
               <span class="text-xl mb-1">
                 <iconify-icon icon="mdi:work"></iconify-icon>
               </span> Works
             </a>
           </li>
           <li>
-            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="./blogOne.html">
+            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="/home">
               <span class="text-xl mb-1">
                 <iconify-icon icon="mdi:blog"></iconify-icon>
               </span> Blogs
             </a>
           </li>
           <li>
-            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="./contactOne.html">
+            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="/home">
               <span class="text-xl mb-1">
                 <iconify-icon icon="mdi:contact"></iconify-icon>
               </span> Contact
@@ -138,7 +139,7 @@
             >
               <!-- profile image  -->
               <img
-                src="./images/about/avatar.jpg"
+                src={profileImage}
                 class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
                 alt="about"
               />
@@ -308,12 +309,12 @@
           <div class="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
             <div class="about-box bg-[#fcf4ff] dark:bg-transparent">
               <img
-                class="w-10 h-10 object-contain block"
-                src="./images/icons/icon.svg"
-                alt="icon"
-              />
+              class="w-10 h-10 object-contain block"
+              src={profileImage}
+              alt="icon"
+            />
               <div class="space-y-2">
-                <h3 class="dark:text-white text-[22px] font-semibold">
+                <h3 class=" text-[22px] font-semibold">
                   Ui/Ux Design
                 </h3>
                 <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
@@ -326,7 +327,7 @@
             <div class="about-box bg-[#fefaf0] dark:bg-transparent">
               <img
                 class="w-10 h-10 object-contain block"
-                src="./images/icons/icon1.svg"
+                src={profileImage}
                 alt="icon"
               />
               <div class="space-y-2">
@@ -343,7 +344,7 @@
             <div class="about-box bg-[#fcf4ff] dark:bg-transparent">
               <img
                 class="w-10 h-10 object-contain block"
-                src="./images/icons/icon2.svg"
+                src={profileImage}
                 alt="icon"
               />
               <div class="space-y-2">
@@ -360,7 +361,7 @@
             <div class="about-box bg-[#fff4f4] dark:bg-transparent">
               <img
                 class="w-10 h-10 object-contain block"
-                src="./images/icons/icon3.svg"
+                src={profileImage}
                 alt="icon"
               />
               <div class="space-y-2">
@@ -377,7 +378,7 @@
             <div class="about-box bg-[#fff0f8] dark:bg-transparent">
               <img
                 class="w-10 h-10 object-contain block"
-                src="./images/icons/icon4.svg"
+                src={profileImage}
                 alt="icon"
               />
               <div class="space-y-2">
@@ -394,7 +395,7 @@
             <div class="about-box bg-[#f3faff] dark:bg-transparent">
               <img
                 class="w-10 h-10 object-contain block"
-                src="./images/icons/icon5.svg"
+                src={profileImage}
                 alt="icon"
               />
               <div class="space-y-2">
@@ -437,7 +438,7 @@
                   >
                     <img
                       class="overflow-hidden brand-img"
-                      src="./images/slider/brand3.png"
+                      src={profileImage}
                       alt="brand icon"
                     />
                   </div>
@@ -451,7 +452,7 @@
                   >
                     <img
                       class="overflow-hidden brand-img"
-                      src="./images/slider/brand4.png"
+                      src={profileImage}
                       alt="brand icon"
                     />
                   </div>
@@ -465,7 +466,7 @@
                   >
                     <img
                       class="overflow-hidden brand-img"
-                      src="./images/slider/brand1.png"
+                      src={profileImage}
                       alt="brand icon"
                     />
                   </div>
@@ -479,7 +480,7 @@
                   >
                     <img
                       class="overflow-hidden brand-img"
-                      src="./images/slider/brand1.png"
+                      src={profileImage}
                       alt="brand icon"
                     />
                   </div>
@@ -505,7 +506,7 @@
                   >
                     <img
                       class="overflow-hidden brand-img"
-                      src="./images/slider/brand1.png"
+                      src={profileImage}
                       alt="brand icon"
                     />
                   </div>
@@ -519,7 +520,7 @@
                   >
                     <img
                       class="overflow-hidden brand-img"
-                      src="./images/slider/brand1.png"
+                      src={profileImage}
                       alt="brand icon"
                     />
                   </div>
@@ -533,7 +534,7 @@
                   >
                     <img
                       class="overflow-hidden brand-img"
-                      src="./images/slider/brand.png"
+                      src={profileImage}
                       alt="brand icon"
                     />
                   </div>
@@ -547,7 +548,7 @@
                   >
                     <img
                       class="overflow-hidden brand-img"
-                      src="./images/slider/brand1.png"
+                      src={profileImage}
                       alt="brand icon"
                     />
                   </div>
@@ -561,7 +562,7 @@
                   >
                     <img
                       class="overflow-hidden brand-img"
-                      src="./images/slider/brand2.png"
+                      src={profileImage}
                       alt="brand icon"
                     />
                   </div>
@@ -575,7 +576,7 @@
                   >
                     <img
                       class="overflow-hidden brand-img"
-                      src="./images/slider/brand3.png"
+                      src={profileImage}
                       alt="brand icon"
                     />
                   </div>
@@ -589,7 +590,7 @@
                   >
                     <img
                       class="overflow-hidden brand-img"
-                      src="./images/slider/brand4.png"
+                      src={profileImage}
                       alt="brand icon"
                     />
                   </div>
@@ -603,7 +604,7 @@
                   >
                     <img
                       class="overflow-hidden brand-img"
-                      src="./images/slider/brand1.png"
+                      src={profileImage}
                       alt="brand icon"
                     />
                   </div>
@@ -617,7 +618,7 @@
                   >
                     <img
                       class="overflow-hidden brand-img"
-                      src="./images/slider/brand1.png"
+                      src={profileImage}
                       alt="brand icon"
                     />
                   </div>
