@@ -86,7 +86,7 @@
       <nav class="hidden lg:block">
         <ul class="flex justify-between text-tertiary-50 font-bold">
           <li>
-            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-orange-500 to-pink-500" href="/home">
+            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-orange-500 to-pink-500" href="/">
               <span class="text-xl mb-1">
                 <iconify-icon icon="mdi:about"></iconify-icon>
                
@@ -94,28 +94,28 @@
             </a>
           </li>
           <li>
-            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="/home">
+            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="/">
               <span class="text-xl mb-1">
                 <iconify-icon icon="mdi:resume"></iconify-icon>
               </span> Resume
             </a>
           </li>
           <li>
-            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="/home">
+            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="/">
               <span class="text-xl mb-1">
                 <iconify-icon icon="mdi:work"></iconify-icon>
               </span> Works
             </a>
           </li>
           <li>
-            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="/home">
+            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="/">
               <span class="text-xl mb-1">
                 <iconify-icon icon="mdi:blog"></iconify-icon>
               </span> Blogs
             </a>
           </li>
           <li>
-            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="/home">
+            <a class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500" href="/">
               <span class="text-xl mb-1">
                 <iconify-icon icon="mdi:contact"></iconify-icon>
               </span> Contact
