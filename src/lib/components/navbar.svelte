@@ -1,27 +1,58 @@
-<script>
-  // @ts-nocheck
-
-  import { navItems } from "$lib/config";
-  import { page } from "$app/stores";
-  import { LightSwitch } from '@skeletonlabs/skeleton';
-  export let logo;
-</script>
-
-<nav class="flex items-center justify-between flex-wrap p-10">
-  <h1 class="h1 my-4"><span class="text-primary-500">&lt</span> {logo} <span class="text-primary-500">&gt</span></h1>
-  
-  <div class="hidden my-4 md:flex list-none items-center flex-shrink-0">
-    {#each navItems as navItem}
-      <li class:active_link={$page.url.pathname === `${navItem.path}`}>
-        <a class="hover:text-primary-500 m-10 " href={navItem.path}>{navItem.title}</a>
-      </li>
-    {/each}
-    <LightSwitch />
-  </div>
-</nav>
-
-<style>
- .active_link {
-  color: rgba(var(--color-primary-500));
- }
-</style>
+<header
+    class="bg-surface-700 lg:w-[560px] h-[144px] lg:block p-[30px] ml-auto mb-10 rounded-[16px]"
+  >
+    <nav class=" lg:block">
+      <ul class="flex justify-between text-tertiary-50 font-bold">
+        <li>
+          <a
+            class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-orange-500 to-pink-500"
+            href="/"
+          >
+            <span class="text-xl mb-1">
+              <iconify-icon icon="mdi:about" />
+            </span> About
+          </a>
+        </li>
+        <li>
+          <a
+            class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500"
+            href="/"
+          >
+            <span class="text-xl mb-1">
+              <iconify-icon icon="mdi:resume" />
+            </span> Resume
+          </a>
+        </li>
+        <li>
+          <a
+            class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500"
+            href="/"
+          >
+            <span class="text-xl mb-1">
+              <iconify-icon icon="mdi:work" />
+            </span> Works
+          </a>
+        </li>
+        <li>
+          <a
+            class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500"
+            href="/"
+          >
+            <span class="text-xl mb-1">
+              <iconify-icon icon="mdi:blog" />
+            </span> Blogs
+          </a>
+        </li>
+        <li>
+          <a
+            class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500"
+            href="/"
+          >
+            <span class="text-xl mb-1">
+              <iconify-icon icon="mdi:contact" />
+            </span> Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
