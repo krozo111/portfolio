@@ -26,7 +26,7 @@
         <li>
           <a
             class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500"
-            href="/"
+            href="/works"
           >
             <span class="text-xl mb-1">
               <iconify-icon icon="mdi:work" />
@@ -36,7 +36,7 @@
         <li>
           <a
             class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500"
-            href="/"
+            href="/blogs"
           >
             <span class="text-xl mb-1">
               <iconify-icon icon="mdi:blog" />
@@ -46,7 +46,7 @@
         <li>
           <a
             class="flex cursor-pointer flex-col items-center justify-center rounded-lg w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500"
-            href="/"
+            href="/contact"
           >
             <span class="text-xl mb-1">
               <iconify-icon icon="mdi:contact" />

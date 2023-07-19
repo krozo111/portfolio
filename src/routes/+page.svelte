@@ -1,19 +1,13 @@
 <script>
-  import Main from "$lib/components/main.svelte";
-  import Sample from "$lib/components/sample.svelte";
+  import Customer from "../lib/components/customer.svelte";
+  import Skills from "../lib/components/skills.svelte";
+  import About from "../lib/components/about.svelte";
+
 </script>
 
-<svelte:head>
-  <title>Jorge Corzo - Portfolio</title>
-</svelte:head>
-
-<main class="hidden lg:block px-6">
-  <Main />
-</main>
-
-<div class="lg:hidden">
-  <Sample />
-</div>
+<About />
+<Skills />
+<Customer />
 
 <style>
 </style>
