@@ -1,17 +1,21 @@
 export const navItems = [
 	{
-		title: 'Home',
+		title: 'About',
 		path: '/'
-	},
-	{
-		title: 'Projects',
-		path: '/projects'
 	},
 	{
 		title: 'Resume',
 		path: '/resume'
 	},
+	{
+		title: 'Works',
+		path: '/works'
+	},
 
+	{
+		title: 'Blogs',
+		path: '/blogs'
+	},
 	{
 		title: 'Contact',
 		path: '/contact'
