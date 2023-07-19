@@ -13,9 +13,6 @@
       </li>
     {/each} 
     <LightSwitch />
-   
-     
-    
   </div>
 
 <style>

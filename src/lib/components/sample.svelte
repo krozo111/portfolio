@@ -81,7 +81,7 @@
             </div>
 
             <!-- personal info start -->
-            <div class="p-7 rounded-2xl mt-7">
+            <div class="w-4/6 bg-surface-700 mx-auto rounded-2xl mt-7 p-7">
               <div class="flex border-b pb-2.5">
                 <span class="shadow-md">
                   <i class="fa-solid fa-mobile-screen-button" />
@@ -133,7 +133,7 @@
       </div>
       <!-- personal info for mobile devices end -->
       <div
-        class="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center"
+        class="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center p-9"
       >
         <h2 class="h1">About Me</h2>
         <div class="col-span-12 space-y-2.5">
