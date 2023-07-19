@@ -9,15 +9,15 @@ export const navItems = [
 	},
 	{
 		title: 'Works',
-		path: '/works'
+		path: '/'
 	},
 
 	{
 		title: 'Blogs',
-		path: '/blogs'
+		path: '/'
 	},
 	{
 		title: 'Contact',
-		path: '/contact'
+		path: '/'
 	}
 ];

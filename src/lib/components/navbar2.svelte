@@ -9,7 +9,6 @@
     {#each navItems as navItem}
       <li class:active_link={$page.url.pathname === `${navItem.path}`}>
         <a class="hover:text-primary-500 m-10 " href={navItem.path}>{navItem.title}</a>
-     <br>
       </li>
     {/each} 
     <LightSwitch />
