@@ -5,7 +5,7 @@
 </script>
 
 
-  <div class=" bg-surface-900 z-10 flex flex-wrap items-center justify-around pt-6 list-none">
+  <div class="fixed bg-surface-900 z-10 flex flex-wrap items-center justify-around pt-6 list-none">
     {#each navItems as navItem}
       <li class:active_link={$page.url.pathname === `${navItem.path}`}>
         <a class="hover:text-primary-500 m-10 " href={navItem.path}>{navItem.title}</a>
