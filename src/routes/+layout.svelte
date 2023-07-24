@@ -3,7 +3,6 @@
   import "@skeletonlabs/skeleton/styles/skeleton.css";
   import "../app.postcss";
   import "iconify-icon";
-  
   import Navbar from "$lib/components/navbar.svelte";
   import SideNav from "$lib/components/sideNav.svelte";
   import Footer from "$lib/components/footer.svelte";
@@ -30,7 +29,7 @@
 
 <!-- Interface mobile view -->
 <div class="lg:hidden">
-  <div class="w-full flex justify-between px-4">...<Menu /></div>
+  <div class="w-full flex justify-between px-4">... <Menu /></div>
   <SideNav />
   <slot />
   <Footer />

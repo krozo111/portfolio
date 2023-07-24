@@ -5,7 +5,9 @@
 
 </script>
 
+<div class="">
 <About />
+
 <Skills />
 <Customer />
-
+</div>

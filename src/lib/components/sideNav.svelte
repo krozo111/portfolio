@@ -1,9 +1,10 @@
 <script>
-  import Icon from '@iconify/svelte';
-  import { personalInfo } from '$lib/config';
+  import Icon from "@iconify/svelte";
+  import { personalInfo } from "$lib/config";
+  import { socialLinks } from "$lib/config";
   import profileImage from "$lib/images/hero_img.webp";
   import PersonalInfo from "../components/personalInfo.svelte";
-  import Button from './button.svelte';
+  import Button from "./button.svelte";
 </script>
 
 <!-- sidber personal info -->
@@ -19,42 +20,27 @@
     />
     <div class="pt-[100px] pb-4">
       <h2 class="mt-6 mb-4 h2 font-bold">{personalInfo.name}</h2>
-      <h5
-        class="mb-4 h5 bg-surface-900 inline-block px-5 py-1.5 rounded-lg"
-      >
-       {personalInfo.ocupation}
+      <h5 class="mb-4 h5 bg-surface-900 inline-block px-5 py-1.5 rounded-lg">
+        {personalInfo.ocupation}
       </h5>
       <div class="flex justify-center space-x-3">
         <!-- facebook icon and link -->
-        <a
-          href="https://www.facebook.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span class="">
-            <Icon icon="openmoji:facebook" width="36" height="36" />
-          </span>
-        </a>
-        <a
-        href="https://www.github.com/krozo111"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span class="">
-          <Icon icon="openmoji:github" width="36" height="36" />
-        </span>
-      </a>
-      <a
-      href="https://www.instagram.com/jorgecorzoh"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <span class="">
-        <Icon icon="openmoji:instagram" width="36" height="36" />
-      </span>
-    </a>
+        {#each socialLinks as socialLink}
+          <li class="list-none">
+            <a
+              id={socialLink.name}
+              href={socialLink.href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="">
+                <Icon icon={socialLink.icon} width="36" height="36" />
+              </span>
+            </a>
+          </li>
+        {/each}
       </div>
-      <PersonalInfo />
+      <PersonalInfo {...personalInfo}/>
       <!-- download button -->
       <Button />
     </div>
