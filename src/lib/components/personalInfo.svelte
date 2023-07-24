@@ -6,7 +6,7 @@
   import Icon from "@iconify/svelte";
 </script>
 
-<div class="px-5 py-5 mt-5 rounded-2xl bg-surface-900">
+<div class="px-5 py-5 mt-5 rounded-2xl bg-surface-50 dark:bg-surface-900">
   <div class="flex border-b pb-2.5">
     <span class="">
       <Icon icon="streamline-emojis:telephone" width="36" />

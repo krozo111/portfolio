@@ -5,13 +5,13 @@
 </script>
 
 <header
-  class="bg-surface-700 lg:w-[560px] h-[144px] lg:block p-[30px] ml-auto mb-10 rounded-[16px]"
+  class="bg-surface-200 dark:bg-surface-700 lg:w-[560px] h-[144px] lg:block p-[30px] ml-auto mb-10 rounded-[16px]"
 >
   <nav class=" lg:block">
     <ul class="flex justify-between font-semibold">
       {#each navItems as navItem}
         <li
-          class="rounded-lg bg-surface-900"
+          class="rounded-lg bg-surface-50 dark:bg-surface-900"
           class:active_link={$page.url.pathname === `${navItem.path}`}
         >
           <a

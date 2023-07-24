@@ -3,6 +3,7 @@
   import "@skeletonlabs/skeleton/styles/skeleton.css";
   import "../app.postcss";
   import "iconify-icon";
+    import { LightSwitch } from '@skeletonlabs/skeleton';
   import Navbar from "$lib/components/navbar.svelte";
   import SideNav from "$lib/components/sideNav.svelte";
   import Footer from "$lib/components/footer.svelte";
@@ -19,7 +20,7 @@
     <SideNav />
     <div class="col-span-12 lg:col-span-8">
       <Navbar />
-      <div class="bg-surface-700 rounded-2xl">
+      <div class="bg-surface-200 dark:bg-surface-700 rounded-2xl">
         <slot />
         <Footer />
       </div>
@@ -29,7 +30,7 @@
 
 <!-- Interface mobile view -->
 <div class="lg:hidden">
-  <div class="w-full flex justify-between px-4">... <Menu /></div>
+  <div class="w-full flex justify-between px-4">...   <LightSwitch /><Menu /></div>
   <SideNav />
   <slot />
   <Footer />

@@ -10,7 +10,7 @@
 <!-- sidber personal info -->
 <div class=" col-span-12 lg:col-span-4 h-screen sticky">
   <div
-    class="w-full bg-surface-700 mb-6 mx-auto text-center px-6 rounded-[20px] mt-[180px] lg:mt-0"
+    class="w-full bg-surface-200 dark:bg-surface-700 mb-6 mx-auto text-center px-6 rounded-[20px] mt-[180px] lg:mt-0"
   >
     <!-- profile image -->
     <img
@@ -20,7 +20,7 @@
     />
     <div class="pt-[100px] pb-4">
       <h2 class="mt-6 mb-4 h2 font-bold">{personalInfo.name}</h2>
-      <h5 class="mb-4 h5 bg-surface-900 inline-block px-5 py-1.5 rounded-lg">
+      <h5 class="mb-4 h5 bg-surface-50 dark:bg-surface-900 inline-block px-5 py-1.5 rounded-lg">
         {personalInfo.ocupation}
       </h5>
       <div class="flex justify-center space-x-3">
