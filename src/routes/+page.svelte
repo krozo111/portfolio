@@ -10,4 +10,3 @@
 <Skills />
 <Customer />
 </div>
-x1
