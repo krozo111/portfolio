@@ -1,104 +1,26 @@
 <script>
-  import profileImage from '$lib/images/hero_img.webp';
+  import Icon from "@iconify/svelte";
+  import { skills } from "$lib/config";
 </script>
-	
- <!-- what i do section start -->
- <div class="pb-12 px-6">
+
+<!-- what i do section start -->
+<div class="pb-12 px-6">
   <h3 class="h1 p-5 font-bold">What I do!</h3>
-  <div class="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
-
-    <div class="flex border-2 rounded-xl border-surface-500 p-6">
-      <img
-        class="w-10 h-10 object-contain block"
-        src={profileImage}
-        alt="icon"
-      />
-      <div class="space-y-2">
-        <h3 class=" text-[22px] font-semibold">FrontEnd Development</h3>
-        <p class="leading-8">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-          diam euismod volutpat.
-        </p>
+  <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
+    {#each skills as skill}
+      <div
+        class="border-2 rounded-xl dark:border-surface-800 border-surface-300 p-3"
+      >
+        <Icon icon={skill.icon} width="52" class="{skill.color}" />
+        <div class="space-y-2">
+          <h3 class=" text-[22px] font-semibold">{skill.name}</h3>
+          <p class="leading-8">
+            {skill.info}
+          </p>
+        </div>
       </div>
-    </div>
-
-    <div class="flex border-2 rounded-xl border-surface-500 p-6">
-      <img
-        class="w-10 h-10 object-contain block"
-        src={profileImage}
-        alt="icon"
-      />
-      <div class="space-y-2">
-        <h3 class=" text-[22px] font-semibold">
-          App Development
-        </h3>
-        <p class="leading-8">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-          diam euismod volutpat.
-        </p>
-      </div>
-    </div>
-
-    <div class="flex border-2 rounded-xl border-surface-500 p-6">
-      <img
-        class="w-10 h-10 object-contain block"
-        src={profileImage}
-        alt="icon"
-      />
-      <div class="space-y-2">
-        <h3 class="text-[22px] font-semibold">Photography</h3>
-        <p class="leading-8">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-          diam euismod volutpat.
-        </p>
-      </div>
-    </div>
-
-    <div class="flex border-2 rounded-xl border-surface-500 p-6">
-      <img
-        class="w-10 h-10 object-contain block"
-        src={profileImage}
-        alt="icon"
-      />
-      <div class="space-y-2">
-        <h3 class="text-[22px] font-semibold">Photography</h3>
-        <p class="leading-8">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-          diam euismod volutpat.
-        </p>
-      </div>
-    </div>
-
-    <div class="flex border-2 rounded-xl border-surface-500 p-6">
-      <img
-        class="w-10 h-10 object-contain block"
-        src={profileImage}
-        alt="icon"
-      />
-      <div class="space-y-2">
-        <h3 class=" text-[22px] font-semibold">Managment</h3>
-        <p class="leading-8">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-          diam euismod volutpat.
-        </p>
-      </div>
-    </div>
-
-    <div class="flex border-2 rounded-xl border-surface-500 p-6">
-      <img
-        class="w-10 h-10 object-contain block"
-        src={profileImage}
-        alt="icon"
-      />
-      <div class="space-y-2">
-        <h3 class="text-[22px] font-semibold">Web Development</h3>
-        <p class="leading-8">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-          diam euismod volutpat.
-        </p>
-      </div>
-    </div>
+    {/each}
   </div>
 </div>
 
-  <!-- what i do section finish -->
+<!-- what i do section finish -->
