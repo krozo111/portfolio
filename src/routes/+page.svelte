@@ -7,7 +7,7 @@
 
 <div class="">
 <About />
-
 <Skills />
 <Customer />
 </div>
+x1
