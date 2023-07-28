@@ -13,9 +13,11 @@
 
 <svelte:head>
   <title>Jorge Corzo - Portfolio</title>
-  <meta name="description" content="Jorge Corzo portfolio web developer in Australia." />
+  <meta
+    name="description"
+    content="Jorge Corzo portfolio web developer in Australia."
+  />
 </svelte:head>
-
 
 <!-- Interface Desktop view -->
 <div class="hidden lg:block px-6">
@@ -35,8 +37,6 @@
 <!-- Interface mobile view -->
 <div class="lg:hidden">
   <Menu />
-  <SideNav />
   <slot />
   <Footer />
 </div>
-
