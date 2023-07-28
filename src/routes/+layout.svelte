@@ -8,15 +8,18 @@
   import SideNav from "$lib/components/sideNav.svelte";
   import Footer from "$lib/components/footer.svelte";
   import Menu from "$lib/components/menu.svelte";
+  import Navbar2 from "$lib/components/navbar2.svelte";
 </script>
 
 <svelte:head>
   <title>Jorge Corzo - Portfolio</title>
+  <meta name="description" content="Jorge Corzo portfolio web developer in Australia." />
 </svelte:head>
+
 
 <!-- Interface Desktop view -->
 <div class="hidden lg:block px-6">
-  <div class="flex pt-5 justify-end"><LightSwitch /></div>
+  <div class="flex pt-5 justify-end sticky top-0"><LightSwitch /></div>
   <div class="container grid grid-cols-12 gap-10 justify-between mt-[180px]">
     <SideNav />
     <div class="col-span-12 lg:col-span-8">
@@ -31,8 +34,9 @@
 
 <!-- Interface mobile view -->
 <div class="lg:hidden">
-  <div class="w-full flex justify-between p-5"><LightSwitch /><Menu /></div>
+  <Menu />
   <SideNav />
   <slot />
   <Footer />
 </div>
+

@@ -1,8 +1,5 @@
 <script>
-  export let phone = "No number available";
-  export let email = "No email available";
-  export let location = "No location available";
-  export let dob = "01-01-2000";
+  import { personalInfo } from "$lib/config";
   import Icon from "@iconify/svelte";
 </script>
 
@@ -13,7 +10,7 @@
     </span>
     <div class="text-left ml-2.5">
       <p class="text-xs text-surface-300">Phone</p>
-      <p class="">{phone}</p>
+      <p class="">{personalInfo.phone}</p>
     </div>
   </div>
   <div class="flex border-b py-2.5">
@@ -22,7 +19,7 @@
     </span>
     <div class="text-left ml-2.5">
       <p class="text-xs text-surface-300">Email</p>
-      <p class="">{email}</p>
+      <p class="">{personalInfo.email}</p>
     </div>
   </div>
   <div class="flex border-b py-2.5">
@@ -31,7 +28,7 @@
     </span>
     <div class="text-left ml-2.5">
       <p class="text-xs text-surface-300">Location</p>
-      <p class="">{location}</p>
+      <p class="">{personalInfo.location}</p>
     </div>
   </div>
   <div class="flex py-2.5">
@@ -40,7 +37,7 @@
     </span>
     <div class="text-left ml-2.5">
       <p class="text-xs text-surface-300">Birthday</p>
-      <p class="">{dob}</p>
+      <p class="">{personalInfo.dob}</p>
     </div>
   </div>
 </div>

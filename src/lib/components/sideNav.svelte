@@ -8,7 +8,7 @@
 </script>
 
 <!-- sidber personal info -->
-<div class=" col-span-12 lg:col-span-4 h-screen sticky">
+<div class=" col-span-12 lg:col-span-4 lg:h-screen lg:sticky top-0">
   <div
     class="w-full bg-surface-200 dark:bg-black mb-6 mx-auto text-center px-6 rounded-[20px] mt-[180px] lg:mt-0"
   >
@@ -40,7 +40,7 @@
           </li>
         {/each}
       </div>
-      <PersonalInfo {...personalInfo}/>
+      <PersonalInfo />
       <!-- download button -->
       <Button />
     </div>
