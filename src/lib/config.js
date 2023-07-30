@@ -46,7 +46,7 @@ export const socialLinks = [
   {
     name: "github",
     href: "https://www.github.com/krozo111",
-    icon: "openmoji:github",
+    icon: "mdi:github",
   },
   {
     name: "instagram",
@@ -98,3 +98,74 @@ export const skills = [
     color: "text-cyan-600",
   },
 ];
+
+export const educations = [
+  {
+    name: "Web Developer",
+    place: "TAFE SA, Adelaide SA",
+    year: "2022 - 2024",
+  },
+  {
+    name: "Software Engineer",
+    place: "42 School, Adelaide AU",
+    year: "2023",
+  },
+  {
+    name: "Bachelor in Computer Science",
+    place: "Politecnico Grancolombiano, Bogota, COL",
+    year: "2011 -2015",
+  },
+];
+
+
+export const experiences = [
+  {
+    name: "Ball Scratcher",
+    place: "Home",
+    year: "2022 - 2023",
+  },
+  {
+    name: "President",
+    place: "Republic of Colombia",
+    year: "2022 - 2026",
+  },
+  {
+    name: "Migrant",
+    place: "Mars (planet)",
+    year: "2015 - 2019",
+  },
+]
+
+export const knowledges = [
+  "Digital Design",
+  "Marketing", 
+  "Social Media",
+  "Svelte",
+  "Time management",
+  "Flexibility", 
+  "Reliability",
+]
+
+export const workingSkills = [
+  {
+    name: "Web developer",
+    level: "65%",
+    color: "bg-purple-400"
+  },
+  {
+    name: "App developer",
+    level: "50%",
+    color: "bg-green-400"
+  },
+  {
+    name: "Ilistrator",
+    level: "80%",
+    color: "bg-orange-400"
+  },
+  {
+    name: "Javascript",
+    level: "90%",
+    color: "bg-blue-400"
+  },
+
+]

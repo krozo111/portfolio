@@ -34,7 +34,7 @@
               rel="noopener noreferrer"
             >
               <span class="">
-                <Icon icon={socialLink.icon} width="36" height="36" />
+                <Icon icon={socialLink.icon} width="36" height="36" color="black dark:white" />
               </span>
             </a>
           </li>
