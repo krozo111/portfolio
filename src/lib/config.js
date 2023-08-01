@@ -117,7 +117,6 @@ export const educations = [
   },
 ];
 
-
 export const experiences = [
   {
     name: "Ball Scratcher",
@@ -134,38 +133,71 @@ export const experiences = [
     place: "Mars (planet)",
     year: "2015 - 2019",
   },
-]
+];
 
 export const knowledges = [
   "Digital Design",
-  "Marketing", 
+  "Marketing",
   "Social Media",
-  "Svelte",
-  "Time management",
-  "Flexibility", 
-  "Reliability",
-]
+  "JS Frameworks",
+  "Javascript",
+  "Tailwind",
+  "UI/UX",
+];
 
 export const workingSkills = [
   {
     name: "Web developer",
     level: "65%",
-    color: "bg-purple-400"
+    color: "bg-purple-400",
   },
   {
     name: "App developer",
     level: "50%",
-    color: "bg-green-400"
+    color: "bg-green-400",
   },
   {
     name: "Ilistrator",
     level: "80%",
-    color: "bg-orange-400"
+    color: "bg-orange-400",
   },
   {
     name: "Javascript",
     level: "90%",
-    color: "bg-blue-400"
+    color: "bg-blue-400",
   },
+];
 
-]
+export const works = [
+  {
+    name: "Ball Scratcher",
+    description: "Description",
+    technology: "React",
+  },
+  {
+    name: "Ball Scratcher",
+    description: "Description",
+    technology: "React",
+  },
+  {
+    name: "Ball Scratcher",
+    description: "Description",
+    technology: "React",
+  },
+  {
+    name: "Ball Scratcher",
+    description: "Description",
+    technology: "React",
+  },
+  {
+    name: "Ball Scratcher",
+    description: "Description",
+    technology: "React",
+  },
+  {
+    name: "Ball Scratcher",
+    description: "Description",
+    technology: "React",
+  },
+];
+
