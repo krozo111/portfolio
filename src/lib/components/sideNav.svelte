@@ -20,7 +20,9 @@
     />
     <div class="pt-[100px] pb-4">
       <h2 class="mt-6 mb-4 h2 font-bold">{personalInfo.name}</h2>
-      <h5 class="mb-4 h5 bg-surface-50 dark:bg-surface-900 inline-block px-5 py-1.5 rounded-lg">
+      <h5
+        class="mb-4 h5 bg-surface-50 dark:bg-surface-900 inline-block px-5 py-1.5 rounded-lg"
+      >
         {personalInfo.ocupation}
       </h5>
       <div class="flex justify-center space-x-3">
@@ -34,7 +36,12 @@
               rel="noopener noreferrer"
             >
               <span class="">
-                <Icon icon={socialLink.icon} width="36" height="36" color="black dark:white" />
+                <Icon
+                  icon={socialLink.icon}
+                  width="36"
+                  height="36"
+                  color="black dark:white"
+                />
               </span>
             </a>
           </li>
@@ -42,7 +49,7 @@
       </div>
       <PersonalInfo />
       <!-- download button -->
-      <Button />
+      <div id="boton"><Button >Download CV </Button > </div>
     </div>
   </div>
 </div>
