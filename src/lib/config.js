@@ -63,40 +63,35 @@ export const socialLinks = [
 export const skills = [
   {
     name: "Web Development",
-    info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+    info: "I am skilled in various frameworks and libraries, such as React, Svelte, and NextJS, to build dynamic and interactive web applications.",
     icon: "fluent-mdl2:website",
     color: "text-purple-600",
   },
   {
     name: "UI/UX Design",
-    info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+    info: "I have extensive experience in crafting intuitive and visually appealing UX/UI solutions. Through research, wireframing, and prototyping. I am proficient in tools like Sketch, Figma, and Adobe XD.",
     icon: "tabler:ux-circle",
     color: "text-orange-600",
   },
   {
     name: "App Development",
-    info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+    info: "Proficient in languages like Swift (iOS) and Java/Kotlin (Android), I specialize in developing native mobile apps that deliver seamless performance and engaging user experiences.",
     icon: "ic:baseline-phone-iphone",
     color: "text-green-600",
   },
   {
-    name: "Photography",
-    info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
-    icon: "mdi:photography",
-    color: "text-yellow-600",
-  },
-  {
-    name: "Management",
-    info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
-    icon: "carbon:gui-management",
-    color: "text-pink-600",
-  },
-  {
     name: "BackEnd Develoment",
-    info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+    info: "foundation in designing and implementing robust server-side solutions. My expertise lies in building scalable and efficient APIs, handling databases, and ensuring smooth data flow between the frontend and backend systems.",
     icon: "iconoir:dev-mode-laptop",
     color: "text-cyan-600",
   },
+  {
+    name: "Photography",
+    info: "Experience with various camera equipment and post-processing software, allowing me to bring out the best in each shot. ",
+    icon: "mdi:photography",
+    color: "text-yellow-600",
+  },
+ 
 ];
 
 export const educations = [
@@ -119,19 +114,19 @@ export const educations = [
 
 export const experiences = [
   {
-    name: "Ball Scratcher",
-    place: "Home",
-    year: "2022 - 2023",
+    name: "Web Developer",
+    place: "Freelancer",
+    year: "2009 - Current",
   },
   {
-    name: "President",
-    place: "Republic of Colombia",
-    year: "2022 - 2026",
+    name: "Office Assistant",
+    place: "Accent Group Limited",
+    year: "2019 - 2021",
   },
   {
-    name: "Migrant",
-    place: "Mars (planet)",
-    year: "2015 - 2019",
+    name: "ICT Operator",
+    place: "Banco Davivienda",
+    year: "2010 - 2015",
   },
 ];
 
@@ -170,34 +165,10 @@ export const workingSkills = [
 
 export const works = [
   {
-    name: "Ball Scratcher",
+    name: "Coming Soon",
     description: "Description",
-    technology: "React",
+    technology: "Svelte",
   },
-  {
-    name: "Ball Scratcher",
-    description: "Description",
-    technology: "React",
-  },
-  {
-    name: "Ball Scratcher",
-    description: "Description",
-    technology: "React",
-  },
-  {
-    name: "Ball Scratcher",
-    description: "Description",
-    technology: "React",
-  },
-  {
-    name: "Ball Scratcher",
-    description: "Description",
-    technology: "React",
-  },
-  {
-    name: "Ball Scratcher",
-    description: "Description",
-    technology: "React",
-  },
+  
 ];
 

@@ -9,7 +9,7 @@
   <div class="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center">
     <div class="col-span-12 space-y-2.5">
       <p class="leading-7">
-        I'm a passionate web developer based in Adelaide. With a creative flair
+        I'm a passionate web developer based in Adelaie. With a creative flair
         and technical expertise, I specialize in crafting user-friendly,
         visually stunning websites that leave a lasting impact. I thrive on
         collaborative projects, working closely with clients to bring their

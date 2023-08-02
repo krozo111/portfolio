@@ -5,8 +5,6 @@
         <div class=" h-0.5 w-40 bg-gradient-to-r from-orange-500 to-pink-500" />
       </div>
 
-      <p class="h1 first-line:uppercase first-line:tracking-widest
-      first-letter:text-7xl first-letter:font-bold first-letter:text-white
-      first-letter:mr-3 first-letter:float-left " >Coming soon</p>
+      <p class="h3" >Coming soon...</p>
     </div>
 </div>
