@@ -165,10 +165,20 @@ export const workingSkills = [
 
 export const works = [
   {
-    name: "Coming Soon",
-    description: "Description",
+    name: "bordacorzo.com",
+    description: "Landing page for an embroidery company",
     technology: "Svelte",
+    src: work1,
+    link: 'http://bordacorzo.com',
   },
-  
+  {
+    name: "pointsCalculator.com",
+    description: "This tool will assist you to calculate points relating to subclass 188, 189, 190 and 489 visas in Asutralia.",
+    technology: "Svelte",
+    src: work2,
+    link: 'https://pointscalculator.pages.dev/points',
+  },
 ];
 
+import work1 from "./images/work1.webp";
+import work2 from "./images/work2.webp";
