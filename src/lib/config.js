@@ -1,7 +1,7 @@
 import work1 from "./images/work1.webp";
 import work2 from "./images/work2.webp";
 import client1 from "./images/client1.webp";
-
+import profile2 from "./images/profile2.jpeg";
 
 export const personalInfo = {
   name: "Jorge Corzo",
@@ -10,6 +10,7 @@ export const personalInfo = {
   phone: "+61 0452 626 790",
   ocupation: "FrontEnd Developer",
   dob: "09-12-1986",
+  img: profile2,
 };
 
 export const navItems = [
@@ -191,37 +192,8 @@ export const clients = [
     src: client1,
   },
   {
-    name: "bordacorzo",
-    src: client1,
+    name: "soon...",
+    src: "..."
   },
-  {
-    name: "bordacorzo",
-    src: client1,
-  },
-  {
-    name: "bordacorzo",
-    src: client1,
-  },
-  {
-    name: "bordacorzo",
-    src: client1,
-  },
-  {
-    name: "bordacorzo",
-    src: client1,
-  },
-  {
-    name: "bordacorzo",
-    src: client1,
-  },
-  {
-    name: "bordacorzo",
-    src: client1,
-  },
-  {
-    name: "bordacorzo",
-    src: client1,
-  },
-
 ];
 

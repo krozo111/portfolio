@@ -13,7 +13,7 @@
       {#each works as work}
         <card class="">
           <header>
-            <img src={work.src} class="h-fit" alt={work.name} />
+            <img src={work.src} class="h-full" alt={work.name} />
           </header>
           <div class="p-4">
             <a href={work.link} target="_blank" class="h3 hover:text-red-500">{work.name}</a>

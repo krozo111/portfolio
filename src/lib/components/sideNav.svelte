@@ -2,7 +2,6 @@
   import Icon from "@iconify/svelte";
   import { personalInfo } from "$lib/config";
   import { socialLinks } from "$lib/config";
-  import profileImage from "$lib/images/hero_img.webp";
   import PersonalInfo from "../components/personalInfo.svelte";
   import Button from "./button.svelte";
 </script>
@@ -14,7 +13,7 @@
   >
     <!-- profile image -->
     <img
-      src={profileImage}
+      src={personalInfo.img}
       class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
       alt="about"
     />
