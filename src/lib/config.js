@@ -193,7 +193,7 @@ export const clients = [
   },
   {
     name: "soon...",
-    src: "..."
+    src: client1,
   },
 ];
 
