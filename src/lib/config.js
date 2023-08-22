@@ -1,3 +1,8 @@
+import work1 from "./images/work1.webp";
+import work2 from "./images/work2.webp";
+import client1 from "./images/client1.webp";
+
+
 export const personalInfo = {
   name: "Jorge Corzo",
   email: "pofo@outlook.com",
@@ -180,5 +185,43 @@ export const works = [
   },
 ];
 
-import work1 from "./images/work1.webp";
-import work2 from "./images/work2.webp";
+export const clients = [
+  {
+    name: "bordacorzo",
+    src: client1,
+  },
+  {
+    name: "bordacorzo",
+    src: client1,
+  },
+  {
+    name: "bordacorzo",
+    src: client1,
+  },
+  {
+    name: "bordacorzo",
+    src: client1,
+  },
+  {
+    name: "bordacorzo",
+    src: client1,
+  },
+  {
+    name: "bordacorzo",
+    src: client1,
+  },
+  {
+    name: "bordacorzo",
+    src: client1,
+  },
+  {
+    name: "bordacorzo",
+    src: client1,
+  },
+  {
+    name: "bordacorzo",
+    src: client1,
+  },
+
+];
+
