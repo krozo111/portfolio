@@ -9,11 +9,11 @@
       <h2 class="h1 font-bold">Portfolio</h2>
       <div class=" h-0.5 w-40 bg-gradient-to-r from-orange-500 to-pink-500" />
     </div>
-    <main class="md:grid md:grid-cols-2 gap-10">
+    <main class="grid grid-cols-1 md:grid md:grid-cols-2 gap-10">
       {#each works as work}
-        <card class="">
+        <card class="bg-slate-800">
           <header>
-            <img src={work.src} class="h-full" alt={work.name} />
+            <img src={work.src} class="" alt={work.name} />
           </header>
           <div class="p-4">
             <a href={work.link} target="_blank" class="h3 hover:text-red-500">{work.name}</a>
