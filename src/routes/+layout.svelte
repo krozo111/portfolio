@@ -9,6 +9,9 @@
   import Footer from "$lib/components/footer.svelte";
   import Menu from "$lib/components/menu.svelte";
   import Navbar2 from "$lib/components/navbar2.svelte";
+  import { fly } from "svelte/transition";
+
+  export let data;
 </script>
 
 <svelte:head>
@@ -27,7 +30,14 @@
     <div class="col-span-12 lg:col-span-8">
       <Navbar />
       <div class="bg-surface-200 dark:bg-black rounded-2xl">
-        <slot />
+        {#key data.url}
+          <div
+            in:fly={{ x: -200, duration: 300, delay: 300 }}
+            out:fly={{ x: 200, duration: 300 }}
+          >
+            <slot />
+          </div>
+        {/key}
         <Footer />
       </div>
     </div>
@@ -37,6 +47,13 @@
 <!-- Interface mobile view -->
 <div class="lg:hidden">
   <Menu />
-  <slot />
+  {#key data.url}
+    <div
+      in:fly={{ x: -200, duration: 300, delay: 300 }}
+      out:fly={{ x: 200, duration: 300 }}
+    >
+      <slot />
+    </div>
+  {/key}
   <Footer />
 </div>

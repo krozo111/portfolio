@@ -4,6 +4,7 @@
   import { socialLinks } from "$lib/config";
   import PersonalInfo from "../components/personalInfo.svelte";
   import Button from "./button.svelte";
+  
 </script>
 
 <!-- sidber personal info -->
