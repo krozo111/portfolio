@@ -10,7 +10,7 @@
 <!-- sidber personal info -->
 <div class=" col-span-12 lg:col-span-4 lg:h-screen lg:sticky">
   <div
-    class="w-full bg-surface-200 dark:bg-red-500 mb-6 mx-auto text-center px-6 rounded-[20px] mt-[180px] lg:mt-0"
+    class="w-full bg-surface-200 dark:bg-black mb-6 mx-auto text-center px-6 rounded-[20px] mt-[180px] lg:mt-0"
   >
     <!-- profile image -->
     <img

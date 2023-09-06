@@ -29,17 +29,17 @@
     <SideNav />
     <div class="col-span-12 lg:col-span-8">
       <Navbar />
-      <div class="bg-surface-200 dark:bg-black rounded-2xl">
-        {#key data.url}
-          <div
-            in:fly={{ x: -200, duration: 300, delay: 300 }}
-            out:fly={{ x: 200, duration: 300 }}
-          >
-            <slot />
-          </div>
-        {/key}
-        <Footer />
-      </div>
+      {#key data.url}
+        <div
+          class="bg-surface-200 dark:bg-black rounded-2xl"
+          in:fly={{ x: 400, duration: 300, delay: 500 }}
+          out:fly={{ x: 400, duration: 500 }}
+        >
+          <slot />
+
+          <Footer />
+        </div>
+      {/key}
     </div>
   </div>
 </div>
@@ -49,8 +49,8 @@
   <Menu />
   {#key data.url}
     <div
-      in:fly={{ x: -200, duration: 300, delay: 300 }}
-      out:fly={{ x: 200, duration: 300 }}
+      in:fly={{ x: -200, duration: 300, delay: 500 }}
+      out:fly={{ x: 200, duration: 500 }}
     >
       <slot />
     </div>
