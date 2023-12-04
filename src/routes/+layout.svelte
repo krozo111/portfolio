@@ -24,31 +24,29 @@
 
 <!-- Interface Desktop view -->
 <div class="hidden lg:block px-6">
-  <div class="flex pt-5 justify-end sticky top-0"><LightSwitch /></div>
-  <div class="container grid grid-cols-12 gap-10 justify-between mt-[180px]">
-    <SideNav />
-    <div class="col-span-12 lg:col-span-8">
-      <Navbar />
-      {#key data.url}
-        <div
-          class="bg-surface-200 dark:bg-black rounded-2xl"
-          in:fly={{ x: 400, duration: 300, delay: 500 }}
-          out:fly={{ x: 400, duration: 500 }}
-        >
-          <slot />
-
-          <Footer />
-        </div>
-      {/key}
+  <div class="flex pt-5 justify-end"><LightSwitch /></div>
+  <Navbar />
+  <div class="flex gap-4 items-start">
+    <div class="lg:sticky lg:top-48">
+      <SideNav />
     </div>
+    {#key data.url}
+      <div
+        class=" bg-surface-200 dark:bg-black rounded-2xl"
+        in:fly={{ x: 200, duration: 300, delay: 500 }}
+        out:fly={{ x: 200, duration: 500 }}
+      >
+        <slot />
+        <Footer />
+      </div>
+    {/key}
   </div>
 </div>
-
 <!-- Interface mobile view -->
 <div class="lg:hidden">
   <Menu />
   {#key data.url}
-    <div
+    <div class="mt-12"
       in:fly={{ x: -200, duration: 300, delay: 500 }}
       out:fly={{ x: 200, duration: 500 }}
     >

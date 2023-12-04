@@ -8,17 +8,17 @@
 </script>
 
 <!-- sidber personal info -->
-<div class=" col-span-12 lg:col-span-4 lg:h-screen lg:sticky">
+
   <div
-    class="w-full bg-surface-200 dark:bg-black mb-6 mx-auto text-center px-6 rounded-[20px] mt-[180px] lg:mt-0"
+    class="lg:sticky lg:top-48 bg-surface-200 dark:bg-black mx-auto text-center px-10 rounded-[20px]"
   >
     <!-- profile image -->
     <img
       src={personalInfo.img}
-      class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
+      class=" w-[240px]  h-[240px] drop-shadow-xl mx-auto rounded-[20px] lg:-mt-[180px]"
       alt="about"
     />
-    <div class="pt-[100px] pb-4">
+    <div class="py-4">
       <h2 class="mt-6 mb-4 h2 font-bold">{personalInfo.name}</h2>
       <h5
         class="mb-4 h5 bg-surface-50 dark:bg-surface-900 inline-block px-5 py-1.5 rounded-lg"
@@ -52,4 +52,4 @@
       <div id="boton"><Button >Download CV </Button > </div>
     </div>
   </div>
-</div>
+

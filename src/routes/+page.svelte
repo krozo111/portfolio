@@ -8,6 +8,7 @@
 <div class="lg:hidden">
   <SideNav />
 </div>
+
 <About />
 <Skills />
 <Customer />
